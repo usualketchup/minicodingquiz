@@ -206,7 +206,7 @@ function quizGame() {
         }
     };
     function reStart() {
-        window.location.href = "../codequiz.html";
+        window.location.href = "../minicodingquiz/";
     };
     function clearScores() {
         localStorage.clear();
