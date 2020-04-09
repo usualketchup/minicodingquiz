@@ -1,23 +1,18 @@
 const $timer = $("#timer");
 const $time = $("#time");
 const $highscores = $("#highscore");
-
 const $startertemplate = $("#startertemplate");
 const $start = $("#start");
 const $title = $("#title");
-
 const $questions = $("#question-screen");
 const $questionbody = $("#question-card");
-
 const $end = $("#endscreen");
 const $endbody = $("#endscreen-card");
-
 const $leaderboards = $("#leaderboards");
 const $leaderheader = $("#leaderboards-header");
 const $leaderbody = $("#leaderboards-body");;
 const $restart = $("#again");
 const $clear = $("#clear");
-
 let time = 60;
 let right = 0;
 let wrong = 0;
@@ -211,7 +206,7 @@ function quizGame() {
         }
     };
     function reStart() {
-        window.location.href = "../02-Homework/codequiz.html";
+        window.location.href = "../codequiz.html";
     };
     function clearScores() {
         localStorage.clear();
