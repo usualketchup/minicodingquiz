@@ -174,7 +174,6 @@ function quizGame() {
         $questions.hide()
         $end.hide();
         $timer.hide();
-        $leaderbody.empty();
         $leaderboards.show();
         showRankings();
     };
@@ -206,7 +205,7 @@ function quizGame() {
         }
     };
     function reStart() {
-        window.location.href = "./minicodingquiz/index.html";
+        window.location.href = "./index.html";
     };
     function clearScores() {
         localStorage.clear();
